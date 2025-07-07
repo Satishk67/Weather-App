@@ -1,0 +1,21 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.599);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: auto;
+}
+
+.footer-content{
+  margin: 0;
+  font-size: 1.5rem;
+  background: none;
+  display: grid;
+  row-gap: 10px;
+  font-size: medium;
+}
+
+h3,p {
+  background: transparent;
+}
