@@ -7,7 +7,7 @@
 ## 📸 Preview
 
 <!-- Replace the below path with your actual screenshot path -->
-![SkySense UI](./src/assets/imag.png)
+![SkySense UI](./src/assets/image.png)
 
 ---
 
