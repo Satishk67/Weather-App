@@ -1,0 +1,165 @@
+.weather-card {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 25px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  animation: fadeInCard 0.5s cubic-bezier(0.4,0,0.2,1);
+  transition: box-shadow 0.3s;
+}
+
+.weather-card.weather-card-animate {
+  animation: popInCard 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes fadeInCard {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes popInCard {
+  0% { opacity: 0; transform: scale(0.95); }
+  80% { opacity: 1; transform: scale(1.03); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Button animation */
+.states-btn, .search.btn {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.1s cubic-bezier(0.4,0,0.2,1);
+}
+
+.states-btn:active, .search.btn:active {
+  transform: scale(0.93);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple-effect 0.5s linear;
+  background: rgba(0, 153, 255, 0.25);
+  pointer-events: none;
+}
+
+/* Air Quality Indicator Colors */
+.aqi-good {
+  color: #2ecc40;
+  font-weight: bold;
+}
+.aqi-fair {
+  color: #3498db;
+  font-weight: bold;
+}
+.aqi-moderate {
+  color: #f39c12;
+  font-weight: bold;
+}
+.aqi-poor {
+  color: #e74c3c;
+  font-weight: bold;
+}
+.aqi-very-poor {
+  color: #8e24aa;
+  font-weight: bold;
+}
+
+
+@keyframes ripple-effect {
+  to {
+    transform: scale(3.5);
+    opacity: 0;
+  }
+}
+
+
+@keyframes ripple-effect {
+  to {
+    transform: scale(3.5);
+    opacity: 0;
+  }
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(90, 87, 87, 0.762);
+}
+
+.weather-main {
+  text-align: left;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+
+.temp-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.weather-icon {
+  font-size: 40px;
+  margin-right: 10px;
+  background: transparent;
+}
+
+.temp {
+  font-size: 36px;
+  font-weight: bold;
+  background: transparent;
+}
+
+.temp-unit {
+  font-size: 20px;
+  margin-left: 4px;
+  background: transparent;
+}
+
+.description {
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: 500;
+  background: transparent;
+}
+
+.more-details {
+  font-size: 13px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  background: transparent;
+}
+
+.weather-details {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+  background: transparent;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  width: 200px;
+  background: transparent;
+}
+
+.poor {
+  color: #f4a742;
+  font-weight: bold;
+  background: transparent;
+}

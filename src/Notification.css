@@ -1,0 +1,22 @@
+.notification-popup {
+  position: fixed;
+  top: 32px;
+  right: 32px;
+  z-index: 9999;
+  background: linear-gradient(90deg, #900c0c 0%, #e2570c 100%);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.13);
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  animation: notif-fade-in 0.4s ease, notif-fade-out 0.4s 2.2s ease forwards;
+}
+
+@keyframes notif-fade-in {
+  from { opacity: 0; transform: translateY(-24px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes notif-fade-out {
+  to { opacity: 0; transform: translateY(-24px) scale(0.97); }
+}

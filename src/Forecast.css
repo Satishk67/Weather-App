@@ -1,0 +1,43 @@
+.forecast-section {
+  margin: 24px 0px;
+  padding: 18px 18px 10px 18px;
+}
+.forecast-section h3 {
+  color: #110a00;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: 900;
+  text-align: left;
+}
+.forecast-list {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.forecast-item {
+  background: #1a1d22;
+  border-radius: 8px;
+  padding: 12px 10px;
+  min-width: 72px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  font-size: 0.98rem;
+}
+.forecast-time {
+  font-size: 0.98rem;
+  color: #ffb347;
+  margin-bottom: 4px;
+}
+.forecast-icon {
+  margin-bottom: 2px;
+}
+.forecast-temp {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.forecast-desc {
+  font-size: 0.95rem;
+  color: #cfcfcf;
+}

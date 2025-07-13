@@ -1,0 +1,50 @@
+
+.canvas{
+    background-color: rgba(171, 213, 215, 0.511);
+}
+
+.home-btn {
+  background: linear-gradient(90deg, #c1ef65 0%, #21b0ba 100%);
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: background 0.2s;
+}
+.home-btn:hover {
+  background: linear-gradient(90deg, #37e0bc 0%, #62d714 100%);
+}
+
+.details-box{
+    font-family: 'Delius', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.details-box h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(246, 154, 5);
+    text-shadow: 2px 2px 4px rgba(69, 188, 22, 0.442);
+    -webkit-text-stroke: 1px rgb(218, 126, 7);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}

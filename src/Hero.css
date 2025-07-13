@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Delius+Unicase:wght@400;700&display=swap');
+.box{
+    display: flow-root;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: grid;
+    row-gap: 30px;
+    background: transparent;
+}
+.title{
+    cursor: grab;
+    font-size: xx-large;
+    font-family:'Delius', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: white;
+    background: transparent;
+    text-align: center;
+}
+.search-box{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px -2px 0px rgba(32, 32, 32, 0.148);
+    width: 500px;
+    height: 50px;
+    background-color: white;
+}
+.btn{
+    border: none;
+    background: transparent;
+}
+svg{
+    background: transparent;
+}
+ul{
+    list-style: none;
+}
+.inp-box{
+    border: none;
+    width: 380px;
+    padding: 6px 4px;
+    background: white;
+    outline: none;
+    box-shadow: none;
+}
+
+.search-box:hover,.search-box:focus {
+    box-shadow: 0px 4px 10px 10px rgba(16, 116, 159, 0.316);
+}
+
+.inp-box:focus {
+    outline: none;
+}
+
+.action-btn-box{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+

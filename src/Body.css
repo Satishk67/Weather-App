@@ -1,0 +1,59 @@
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background: transparent;
+}
+
+.flexbox{
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    width: 80%;
+    align-items: center;
+
+}
+
+#last-row{
+    margin-bottom: 40px;
+}
+
+.gridbox{
+    margin: 25px;
+    display: grid;
+    gap: 14px 12px;
+    justify-items: center;
+    background: transparent;
+}
+
+ul{
+    list-style: none;
+}
+
+.states-btn {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', 'sans-serif';
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #8f5eff 0%, #6446b4cb 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  width: 300px;
+  margin: 6px 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(95,46,234,0.10);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+}
+
+
+.states-btn:hover{
+  background: linear-gradient(90deg, #48cae4 0%, #00b4d8 100%);
+  color: #fff;
+  outline: 2px solid #00b4d8;
+  box-shadow: 0 4px 16px rgba(0,153,255,0.15);
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
